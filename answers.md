@@ -95,6 +95,7 @@ And here is a screenshot of the dashboard I created with graphs I've added:
 ![alt text](https://github.com/cbtx/hiring-engineers/blob/master/apmscreenboard.png "APM Screenboard")
 
 #### Bonus Question
-A service is a group of processes that do the same job - like all of the components that make up a web app which you'd want to monitor together to understand the overall behavior of that service for an end users.  Resources 
+A service is a group of processes that do the same job - like all of the components that make up a web app which you'd want to monitor together to understand the overall behavior of that service for an end users.  Resources are components of a service that do a specific function or action like a query to a database or url. 
 
 ### Final Question
+I come from an analytics background and often see databases get thrashed by open ended queries from end users that typically don't get caught until they either bring down a system or they never get caught at all.  I would love to see DataDog be used to keep tabs on these databases and provide insight into when action needs to be taken so that DBA's can kill queries or better yet understand how end users are using their database to improve performance.  Many of the tools that databases provide to do this type of analysis don't allow someone to take into account the OS level metrics that DataDog could allow a DBA to see side by side in a single dashboard. 
